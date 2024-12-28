@@ -252,7 +252,7 @@ async function main() {
 
                 log.info(`=== Uploading file for user #${counter} ===`);
                 await sendDocxFile(filePath, token, nameTopic, antiCaptchaApiKey);
-                log.info(`=== Santuy, Cooldowns 30 seconds before continue ===`);
+                log.info(`=== Relax Dude, Cooldowns 30 seconds before continue ===`);
                 await new Promise(resolve => setTimeout(resolve, 30 * 1000));
 
                 counter++;
